@@ -1,0 +1,17 @@
+.env
+.DS_Store
+**/.DS_Store
+.omx/state/
+.omx/context/
+.omx/logs/
+.omx/notepad.md
+.omx/project-memory.json
+.omx/tmux-hook.json
+exPic/_cgi-bin_*
+assets/**/source/raw/**/secrets/
+*.log
+__pycache__/
+*.pyc
+runtime/peteva-runtime/state/
+runtime/peteva-runtime/build/
+debug/

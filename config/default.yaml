@@ -1,0 +1,107 @@
+project:
+  name: PetEVA
+  local_first: true
+  vertical_slice: eva-02
+
+units:
+  eva-00:
+    displayName: EVA Unit-00
+    publicAlias: Prototype-00
+    temperament: calm, diagnostic, steady
+    palette:
+      primary: "#D6A33A"
+      accent: "#6FA8C9"
+      dark: "#202226"
+      highlight: "#F2E8C8"
+  eva-01:
+    displayName: EVA Unit-01
+    publicAlias: Violet-01
+    temperament: protective, intense, focused
+    palette:
+      primary: "#3A245F"
+      accent: "#6CFF74"
+      dark: "#101014"
+      highlight: "#F1F4F7"
+  eva-02:
+    displayName: EVA Unit-02
+    publicAlias: Crimson-02
+    temperament: confident, fast, assertive
+    palette:
+      primary: "#C9232D"
+      accent: "#FF8A2A"
+      dark: "#202026"
+      highlight: "#F5F0E8"
+
+codexPet:
+  sheet:
+    width: 1536
+    height: 1872
+    columns: 8
+    rows: 9
+    cellWidth: 192
+    cellHeight: 208
+    format: webp
+    alpha: true
+  rows:
+    - idle
+    - running-right
+    - running-left
+    - waving
+    - jumping
+    - failed
+    - waiting
+    - running
+    - review
+
+generation:
+  imageModel: gpt-image-2
+  finalAlphaCleanup: local
+  referencePolicy: reference-only unless licensed
+
+runtime:
+  pet:
+    activeUnit: eva-02
+  window:
+    pollMs: 500
+    frameMs: 120
+    moveMs: 120
+    scalePercent: 75
+  motion:
+    stepPixels: 8
+    runStepPixels: 14
+    jumpStepPixels: 12
+    crawlStepPixels: 6
+    jumpHeightPercent: 120
+    directionStrategy: uniform
+    stationaryPercent: 70
+    horizontalPercent: 10
+    verticalPercent: 90
+    diagonalPercent: 20
+    forms:
+      walk:
+        enabled: true
+        probabilityWeight: 6
+      run:
+        enabled: true
+        probabilityWeight: 1
+      crawl:
+        enabled: true
+        probabilityWeight: 1
+      jump:
+        enabled: true
+        probabilityWeight: 2
+    screenMargin: 8
+    minSegmentTicks: 8
+    maxSegmentTicks: 20
+  reminders:
+    defaultDisplaySeconds: 55
+    water:
+      enabled: true
+      intervalMinutes: 20
+      message: 该喝水了。
+      displaySeconds: 55
+    activity:
+      enabled: true
+      intervalMinutes: 30
+      message: 起来活动一下。
+      displaySeconds: 55

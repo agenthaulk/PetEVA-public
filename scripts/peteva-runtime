@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+set -euo pipefail
+
+SCRIPT_DIR="${0:A:h}"
+PROJECT_ROOT="${SCRIPT_DIR:h}"
+
+exec "$PROJECT_ROOT/scripts/peteva-python" "$PROJECT_ROOT/scripts/peteva_runtime.py" "$@"

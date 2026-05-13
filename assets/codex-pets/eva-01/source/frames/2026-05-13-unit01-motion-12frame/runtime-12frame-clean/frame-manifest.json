@@ -1,0 +1,72 @@
+{
+  "frameCount": 12,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "source": "clean-public-runtime-pack",
+  "actions": {
+    "walking": {
+      "source": "clean-public-runtime-pack/walking",
+      "sourceType": "backup-6frame-expanded",
+      "frames": 12,
+      "repairs": {},
+      "expandedSequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "running": {
+      "source": "clean-public-runtime-pack/running",
+      "sourceType": "backup-6frame-expanded",
+      "frames": 12,
+      "repairs": {},
+      "expandedSequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "crawling": {
+      "source": "clean-public-runtime-pack",
+      "sourceType": "gpt-image-2-strip",
+      "frames": 12,
+      "repairs": {}
+    },
+    "diagonal-jump": {
+      "source": "clean-public-runtime-pack",
+      "sourceType": "gpt-image-2-strip",
+      "frames": 12,
+      "repairs": {}
+    },
+    "diagonal-jump-right": {
+      "source": "clean-public-runtime-pack",
+      "sourceType": "gpt-image-2-strip",
+      "frames": 12,
+      "repairs": {}
+    },
+    "vertical-jump": {
+      "source": "clean-public-runtime-pack",
+      "sourceType": "gpt-image-2-strip",
+      "frames": 12,
+      "repairs": {}
+    }
+  }
+}

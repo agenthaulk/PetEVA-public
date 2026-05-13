@@ -1,0 +1,71 @@
+{
+  "frameCount": 12,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "source": "clean-public-unit01-runtime-pack",
+  "sourceType": "local-unit01-recolor-fallback",
+  "actions": {
+    "walking": {
+      "source": "clean-public-unit01-runtime-pack/walking",
+      "sourceType": "local-unit01-recolor-fallback",
+      "frames": 12,
+      "repairs": {
+        "palette": "official-reference Unit-02 red/deep-red/black/off-white/orange hierarchy",
+        "edgeCleanup": "transparent-edge alpha clear and red/orange halo darkening",
+        "greenRetention": "green retained only for tiny central sensor candidates"
+      }
+    },
+    "running": {
+      "source": "clean-public-unit01-runtime-pack/running",
+      "sourceType": "local-unit01-recolor-fallback",
+      "frames": 12,
+      "repairs": {
+        "palette": "official-reference Unit-02 red/deep-red/black/off-white/orange hierarchy",
+        "edgeCleanup": "transparent-edge alpha clear and red/orange halo darkening",
+        "greenRetention": "green retained only for tiny central sensor candidates"
+      }
+    },
+    "crawling": {
+      "source": "clean-public-unit01-runtime-pack/crawling",
+      "sourceType": "local-unit01-recolor-fallback",
+      "frames": 12,
+      "repairs": {
+        "palette": "official-reference Unit-02 red/deep-red/black/off-white/orange hierarchy",
+        "edgeCleanup": "transparent-edge alpha clear and red/orange halo darkening",
+        "greenRetention": "green retained only for tiny central sensor candidates"
+      }
+    },
+    "diagonal-jump": {
+      "source": "clean-public-unit01-runtime-pack/vertical-jump",
+      "sourceType": "local-unit01-recolor-fallback",
+      "frames": 12,
+      "repairs": {
+        "palette": "official-reference Unit-02 red/deep-red/black/off-white/orange hierarchy",
+        "edgeCleanup": "transparent-edge alpha clear and red/orange halo darkening",
+        "greenRetention": "green retained only for tiny central sensor candidates"
+      },
+      "fallbackAction": "vertical-jump"
+    },
+    "diagonal-jump-right": {
+      "source": "clean-public-unit01-runtime-pack/vertical-jump",
+      "sourceType": "local-unit01-recolor-fallback",
+      "frames": 12,
+      "repairs": {
+        "palette": "official-reference Unit-02 red/deep-red/black/off-white/orange hierarchy",
+        "edgeCleanup": "transparent-edge alpha clear and red/orange halo darkening",
+        "greenRetention": "green retained only for tiny central sensor candidates"
+      },
+      "fallbackAction": "vertical-jump"
+    },
+    "vertical-jump": {
+      "source": "clean-public-unit01-runtime-pack/vertical-jump",
+      "sourceType": "local-unit01-recolor-fallback",
+      "frames": 12,
+      "repairs": {
+        "palette": "official-reference Unit-02 red/deep-red/black/off-white/orange hierarchy",
+        "edgeCleanup": "transparent-edge alpha clear and red/orange halo darkening",
+        "greenRetention": "green retained only for tiny central sensor candidates"
+      }
+    }
+  }
+}
