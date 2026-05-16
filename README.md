@@ -1,5 +1,10 @@
 # PetEVA: EVA / Neon Genesis Evangelion Custom Desktop Pet
 
+![PetEVA Unit-01 draft preview](assets/readme/eva01-draft.png)
+
+Unit-01 风格桌面宠物方向草图 / Draft visual preview of the
+Unit-01-style desktop pet direction.
+
 **中文简介**
 PetEVA 是一个以 **EVA / 新世纪福音战士** 为主题的非官方自定义桌面宠物项目。
 它面向喜欢 Evangelion、桌面宠物、自定义 Codex 工作空间、本地优先工具和
